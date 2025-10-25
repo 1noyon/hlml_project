@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+#container {
+  width: 800px;
+  height: 200px; /* fixed spelling */
+}
+
+#box1 {
+  background-color: aqua; /* fixed spelling */
+}
+
+#box2 {
+  background-color: pink;
+}
+
+#box3 {
+  background-color: orange;
+}
+
+#box4 {
+  background-color: red;
+}
+
+#box5 {
+  background-color: green;
+}

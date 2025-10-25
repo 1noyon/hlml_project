@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+ 
+  
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <h1>Hi, I'm Mehedi Hasan Noyon</h1>
+      <p>A passionate Software Engineer crafting modern websites with love & code.</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </section>
+
+  
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <div class="profile-pic">
+        <img src="IMG_3999.JPG" alt="Profile Picture">
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm Mehedi Hasan Noyon, a passionate Software Engineer. 
+          I enjoy turning complex problems into simple, beautiful, and intuitive designs.
+          <br><br>
+          When I'm not coding, you’ll find me exploring sci-fi worlds or sketching futuristic interfaces.
+          I believe great design comes from empathy, curiosity, and coffee.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="projects" class="projects-section">
+    <div class="projects-container">
+      <h2>My Projects</h2>
+
+      <div class="project-card">
+        <h3>Blog Platform</h3>
+        <p>A responsive blog platform built with HTML, CSS, and JavaScript.</p>
+        <a href="#" class="btn" target="_blank">View Demo</a>
+      </div>
+
+      <div class="project-card">
+        <h3>TaskOrbit</h3>
+        <p>A sleek to-do app designed to organize daily tasks with reminders.</p>
+        <a href="#" class="btn" target="_blank">Explore App</a>
+      </div>
+
+      <div class="project-card">
+        <h3>NovaPortfolio Framework</h3>
+        <p>A lightweight HTML/CSS/JS boilerplate for quick portfolio setups.</p>
+        <video controls width="100%" style="border-radius: 10px; margin: 10px 0;">
+          <source src="demo_Project.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <a href="#" class="btn" target="_blank">See Framework</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="contact-section">
+    <div class="contact-container">
+      <h2>Contact Me</h2>
+      <p>If you'd like to collaborate, ask a question, or just say hello — feel free to reach out!</p>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <p><strong>Phone:</strong> <a href="tel:+8801864375177">+8801864375177</a></p>
+        <p><strong>Email:</strong> <a href="mailto:mehedihasannoyon197@gmail.com">mehedihasannoyon197@gmail.com</a></p>
+      </div>
+
+      <div class="social-links">
+        <h3>Follow Me</h3>
+        <a href="https://www.facebook.com/md.noyan.71619533" target="_blank">Facebook</a> |
+        <a href="https://twitter.com/example" target="_blank">Twitter</a> |
+        <a href="https://instagram.com/example" target="_blank">Instagram</a> |
+        <a href="https://linkedin.com/company/example" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <button id="scrollTopBtn" title="Go to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
